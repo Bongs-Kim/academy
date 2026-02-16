@@ -1,54 +1,72 @@
 body {
   margin: 0;
-  font-family: "Noto Sans KR", sans-serif;
-  line-height: 1.6;
+  font-family: "Noto Sans KR", Arial, sans-serif;
   color: #333;
+  line-height: 1.6;
 }
 
-header {
+.hero {
   background: #2f5bea;
   color: white;
   text-align: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 
-header h1 {
+.hero h1 {
+  font-size: 42px;
   margin-bottom: 10px;
 }
 
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
 .btn {
-  display: inline-block;
-  margin-top: 20px;
   background: white;
   color: #2f5bea;
-  padding: 12px 25px;
+  padding: 14px 30px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
   font-weight: bold;
 }
 
 .section {
-  padding: 50px 20px;
+  padding: 60px 20px;
   text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 30px;
 }
 
 .bg {
   background: #f5f7fb;
 }
 
-.cards {
+.features {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-.card {
+.box {
   background: white;
-  padding: 20px;
+  padding: 25px;
   width: 200px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.info {
+  list-style: none;
+  padding: 0;
+}
+
+.info li {
+  margin: 10px 0;
+  font-size: 18px;
 }
 
 .contact {
@@ -57,9 +75,9 @@ header h1 {
 }
 
 footer {
-  text-align: center;
-  padding: 15px;
   background: #222;
   color: #aaa;
+  text-align: center;
+  padding: 15px;
   font-size: 14px;
 }
