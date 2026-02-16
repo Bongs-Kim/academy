@@ -7,11 +7,11 @@ body {
 
 .hero {
   background:
-   linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-   url("images/main.jpg") center / cover no-repeat;
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("images/main.jpg") center / cover no-repeat;
   color: white;
   text-align: center;
-  padding: 80px 20px;
+  padding: 100px 20px;
 }
 
 .hero h1 {
@@ -76,14 +76,6 @@ body {
   color: white;
 }
 
-footer {
-  background: #222;
-  color: #aaa;
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-}
-
 .photo {
   width: 90%;
   max-width: 600px;
@@ -92,3 +84,10 @@ footer {
   display: block;
 }
 
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
