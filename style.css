@@ -1,3 +1,11 @@
+.photo {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 12px;
+  margin: 30px auto;
+  display: block;
+}
+
 body {
   margin: 0;
   font-family: "Noto Sans KR", Arial, sans-serif;
@@ -81,3 +89,4 @@ footer {
   padding: 15px;
   font-size: 14px;
 }
+
